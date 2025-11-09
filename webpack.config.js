@@ -2,7 +2,8 @@ const path = require('path');
 
 const config = {
   mode: 'development',
-  entry: path.resolve(__dirname, './src/index.ts'),
+  target: 'node',
+  entry: './src/server.ts',
   module: {
     rules: [{ test: /\.ts$/i, use: 'ts-loader', exclude: /node_modules/ }],
   },
@@ -11,7 +12,7 @@ const config = {
   },
   output: {
     filename: 'index.js',
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, 'dist'),
   },
 };
 
