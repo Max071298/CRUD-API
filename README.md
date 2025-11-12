@@ -2,7 +2,9 @@
 
 
 ###### 1. clone repo
-`git clone https://github.com/Max071298/CRUD-API.git`
+```
+git clone https://github.com/Max071298/CRUD-API.git
+```
 ###### 2. Install all dependencies
 npm install
 ###### 3.In root folder create file .env and add port parameter.
