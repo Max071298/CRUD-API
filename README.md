@@ -1,15 +1,15 @@
 # Installation and running server
 
 
-1. clone repo
-git clone https://github.com/Max071298/CRUD-API.git
-2. Install all dependencies
+###### 1. clone repo
+`git clone https://github.com/Max071298/CRUD-API.git`
+###### 2. Install all dependencies
 npm install
-3.In root folder create file .env and add port parameter.
+###### 3.In root folder create file .env and add port parameter.
 PORT=4000
-4.To activate development mode write command
+###### 4.To activate development mode write command
 npm run start:dev
-5.To activate production mode write command
+###### 5.To activate production mode write command
 npm run start:prod
 
 # Methods
