@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start:dev": "nodemon src/server.ts",
+    "start": "node dist/index.js",
+    "start:prod": "npm run build && npm run start",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,6 +29,7 @@
     "jest": "^30.2.0",
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
+    "ts-loader": "^9.5.4",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.3",
