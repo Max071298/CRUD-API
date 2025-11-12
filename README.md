@@ -1,3 +1,6 @@
+#Installation and running server
+
+
 1. clone repo
 git clone https://github.com/Max071298/CRUD-API.git
 2. Install all dependencies
@@ -9,7 +12,7 @@ npm run start:dev
 5.To activate production mode write command
 npm run start:prod
 
-Methods
+#Methods
 
 1.Get users
 method: get
