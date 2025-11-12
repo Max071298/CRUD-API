@@ -13,28 +13,28 @@ npm install
 ```
 PORT=4000
 ```
-###### 4.To activate development mode write command
+###### 4. To activate development mode write command
 ```
 npm run start:dev
 ```
-###### 5.To activate production mode write command
+###### 5. To activate production mode write command
 ```
 npm run start:prod
 ```
 
 # Methods
 
-1.Get users
+###### 1. Get users
 ```
 method: get
 address: 127.0.0.1:4000/api/users
 ```
-2.Get user
+###### 2. Get user
 ```
 method: get
 address: 127.0.0.1:4000/api/users/{userID}
 ```
-3.Add user
+###### 3. Add user
 ```
 method: post
 address: 127.0.0.1:4000/api/users
@@ -44,7 +44,7 @@ body: {
     "hobbies": ["books", "films", "football"]
 }
 ```
-4. Update user information
+###### 4. Update user information
 ```
 method: put
 address: 127.0.0.1:4000/api/users/{userID}
@@ -54,7 +54,7 @@ body: {
     "hobbies": ["flights"]
 }
 ```
-5.remove user
+###### 5. remove user
 ```
 method: delete
 address: 127.0.0.1:4000/api/users/{userID}
