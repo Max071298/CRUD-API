@@ -1,4 +1,4 @@
-#Installation and running server
+# Installation and running server
 
 
 1. clone repo
@@ -12,7 +12,7 @@ npm run start:dev
 5.To activate production mode write command
 npm run start:prod
 
-#Methods
+# Methods
 
 1.Get users
 method: get
